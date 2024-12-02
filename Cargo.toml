@@ -1,0 +1,16 @@
+[package]
+name = "fdup"
+version = "3.0.0"
+authors = ["Jack <jackwchoi@pm.me>"]
+edition = "2018"
+description = "find duplicate files recursively and in parallel"
+repository = "https://github.com/jchoi5me/fdup"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = "1.10"
+sha2 = "0.10"
+structopt = "0.3"
+walkdir = "2"
